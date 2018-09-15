@@ -1,15 +1,85 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>REACT'N'C#</title>
+	<title>Nauka jazdy samochodem</title>
+	<style>
+		html {
+			background: black;
+		}
+		li {
+			color: red;
+			margin: 15px;
+		}
+		
+		ol {
+			border: 3px dotted blue;	
+		}
+		body {
+			width: 600px;
+			margin: auto;
+			padding: 20px;
+			background: white;
+		}
+		h1 {
+			color: orange;
+			text-align: center;
+		}
+		li > div {
+			color: green;
+		}
+		
+		.dane {
+			color: purple;
+		}
+		.dane:hover {
+			font-weight: bold;
+			background: yellow;
+			cursor: pointer;
+		}
+	</style>	
 </head>
 
 <body>
-    <div id="root"></div>
-    <script src='bundle.js'></script>
+	<div>
+		<h1>Siemanko witam na mojej stronce</h1>
+		<img width="100%" src="https://cdn.natemat.pl/fed5d96a5734b42e51bf3ee6856c3bde,780,0,0,0.jpg"/>
+		<div>Co tam sąsiedzie nie odpala ? Na mojej stronie spróbujemy rozwiązać Twój problem. Przeczytasz na tej stronie o usterkach samochodów i sposoobach na ich rozwiązanie </div>
+	</div>
+	<h2> Usterki i porady </h2>
+	<div>
+		<ol>
+			<li>
+				<p>Nie odpala rozrusznik</p>
+				<div>
+					Sprawdź czy nie rozłądowałeś akumulatora
+				</div>	
+			</li>
+			<li>
+				<p>Luźne sprzęgło</p>
+				<div>
+					Sprawdź czy nie spadło cięgno
+				</div>
+			</li>
+			<li>
+				Zapowietrzony hamulec
+				<div>
+					Sprawdź czy nie dostało się powietrze
+				</div>
+			</li>
+			<li>
+				Nie działajacy reflektor
+				<div>
+					Sprawdź żarówkę a potem bezpieczniki
+				</div>
+			</li>
+		</ol>
+	</div>
+	<div>
+		<p>Śledź mnie na FB</p>
+		<a href="https://www.facebook.com/Naprawa-serwis-samochod%C3%B3w-osobowych-i-ci%C4%99%C5%BCarowych-Padowski-656812994423642/?ref=br_rs">CarFix FanPage</a>
+	</div>
+
+	<div class="dane" onClick="alert('Telefon 523 321 122')">KLIKNIJ BY ZOBACZYĆ DANE KONTAKTOWE</div>
 </body>
 
 </html>
