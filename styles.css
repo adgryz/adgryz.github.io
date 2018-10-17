@@ -1,0 +1,36 @@
+.container {
+ background: yellow;
+ top: 0;
+ bottom: 0;
+ position: absolute;
+ width: 100%;
+}
+
+.tb{
+    background: green;
+    display: flex;
+    height: 10%;
+}
+
+.cn {
+ background: red;
+ display: flex;
+ max-height: 80%;
+ overflow-y: scroll;
+}
+
+.item {
+ height: 5000px;
+ background: orange;
+}
+
+.nb {
+    background: blue;
+    display: flex;
+    height: 10%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
