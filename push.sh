@@ -1,1 +1,3 @@
-git add * && git commit -m"Eloszka" && git push
+#!/usr/bin/env bash
+echo PUSH STARTED
+$SHELL
